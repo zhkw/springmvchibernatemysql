@@ -105,6 +105,34 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.atomikos/atomikos-util -->
+    <dependency>
+      <groupId>com.atomikos</groupId>
+      <artifactId>atomikos-util</artifactId>
+      <version>3.9.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.atomikos</groupId>
+      <artifactId>transactions</artifactId>
+      <version>3.9.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.atomikos</groupId>
+      <artifactId>transactions-api</artifactId>
+      <version>3.9.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.atomikos</groupId>
+      <artifactId>transactions-jdbc</artifactId>
+      <version>3.9.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.atomikos</groupId>
+      <artifactId>transactions-jta</artifactId>
+      <version>3.9.3</version>
+    </dependency>
+
   </dependencies>
 
   <build>

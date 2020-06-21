@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hibernatemvcanno:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hibernatemvcanno</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hibernatemvcanno.war">
+      <element id="artifact" artifact-name="hibernatemvcanno:war exploded" />
+    </root>
+  </artifact>
+</component>
